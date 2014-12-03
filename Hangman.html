@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+
+
+    <title>Hangman</title>
+
+</head>
+
+<body>
+<div class="container">
+
+  <h1>Гульня "Шыбеніца"</h1>
+  <p></p>
+
+  <div class="row"> 
+    <div class="col-md-2">
+    </div>  
+    <div class="col-md-4">
+      <div id="palka">
+        <div id="palka1"></div>
+        <div id="palka2"></div>
+        <div id="palka3"></div>
+        <div id="palka4"></div>
+      </div> 
+        <div id="err1"> 
+          <div id="head"></div>
+        </div>
+        <div id="err2"></div>  
+        <div id="err3"></div>  
+        <div id="err4"></div>  
+        <div id="err5"></div>  
+        <div id="err6"></div> 
+      
+    </div>
+
+    <div class="col-md-6">
+      <div id="wordstyle">
+        <h4>Загаданае слова:</h4>
+        <h3><span id="word"></span></h3>
+      </div>
+
+      <form id="new-letter" role="form" class="form-inline">
+        <div class="form-group">
+          <label for="inputLetter">Увядзіце літару</label>
+          <br>
+          <input type="text" id="inputLetter" class="form-control">
+          <button type="submit" class="btn btn-info">Enter</button>
+        </div>
+      </form>
+     
+      <div id="showIn">
+      <h4>Гэтых літар у слове няма:</h4>
+      <h4 id="showWrong"></h4>
+      </div>
+    </div>  
+
+    
+  
+  </div>
+
+  <p></p>
+  <h1><span id="itog"></span></h1>
+
+
+
+    
+
+
+</div>  
+</body>
+</html>
